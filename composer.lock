@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "26e46ff2a506d7dedba64ab72051e599",
-    "content-hash": "be1bd0ee4f7c583c7a3a55c19fc163ff",
+    "hash": "6d362288bac66b92a9baeb07d21e5ac0",
+    "content-hash": "cb6f5a0131f5159edd43e93148fbd36b",
     "packages": [
         {
             "name": "composer/installers",
@@ -284,6 +284,27 @@
             "time": "2015-12-29 15:10:30"
         },
         {
+            "name": "wpackagist-plugin/fg-magento-to-woocommerce",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/fg-magento-to-woocommerce/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/fg-magento-to-woocommerce.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/fg-magento-to-woocommerce/",
+            "time": "2016-02-07 04:15:50"
+        },
+        {
             "name": "wpackagist-plugin/woocommerce",
             "version": "dev-trunk",
             "source": {
@@ -309,7 +330,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "wpackagist-plugin/woocommerce": 20
+        "wpackagist-plugin/woocommerce": 20,
+        "wpackagist-plugin/fg-magento-to-woocommerce": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
